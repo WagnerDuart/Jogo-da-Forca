@@ -4,7 +4,7 @@
   "description": "jogo da forca com opção mulitplayer",
   "main": "jogo.js",
   "scripts": {
-    "start": "node jogo.js"
+    "start": "node Wagner_Santos_Duarte_index.js"
   },
   "author": "Wagner Santos Duarte",
   "license": "ISC",
