@@ -6,9 +6,10 @@ const palavras = ['javascript', 'nodejs', 'express', 'mongodb', 'react', 'angula
 const animais = ['gato','abelha','cachorro','galinha','ovelha','peixe']
 const objetos = ['cadeira','lapis','caderno','mouse','caneca','controle']
 
+// Array de array de palavras 
 const aleatorios = ['palavras', 'animais', 'objetos']
+// Seleciona um array aleatória do vetor
 const alvo = aleatorios[Math.floor(Math.random() * aleatorios.length)];
-
 
 console.log('============JOGO DA FORCA============ \n')
 
