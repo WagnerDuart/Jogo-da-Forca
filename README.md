@@ -22,8 +22,8 @@
       Para executar o jogo, é necessário ter o Node.js instalado em sua máquina. Em seguida, siga os seguintes passos:
     1. Faça o download dos arquivos do jogo em seu computador.
     2. Abra o terminal e navegue até o diretório em que os arquivos foram baixados.
-    3. Execute o comando "npm i" para instala os pacotes a serem utilizados
-    4. Execute o comando "npm start" para iniciar o jogo.
+    3. Execute o comando "**npm i**" para instala os pacotes a serem utilizados
+    4. Execute o comando "**npm start**" para iniciar o jogo.
 
 5. Regras do Jogo
     - O jogo seleciona uma palavra aleatória de um conjunto de palavras disponíveis.
