@@ -5,6 +5,7 @@ const readline = require('readline');
 const palavras = ['javascript', 'nodejs', 'express', 'mongodb', 'react', 'angular', 'vue'];
 const animais = ['gato','abelha','cachorro','galinha','ovelha','peixe']
 const objetos = ['cadeira','lapis','caderno','mouse','caneca','controle']
+const dicas = {palavras,animais,objetos}
 
 // Array de array de palavras 
 const aleatorios = ['palavras', 'animais', 'objetos']
@@ -14,7 +15,7 @@ const alvo = aleatorios[Math.floor(Math.random() * aleatorios.length)];
 console.log('============JOGO DA FORCA============ \n')
 
 // Seleciona uma palavra aleatória do vetor
-const palavraAlvo = [alvo][Math.floor(Math.random() * [alvo].length)];
+const palavraAlvo = dicas[alvo][Math.floor(Math.random() * dicas[alvo].length)];
 
 // Vetor para armazenar as letras adivinhadas
 const letrasAdivinhadas = new Array(palavraAlvo.length).fill('_');
