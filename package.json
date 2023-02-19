@@ -1,8 +1,8 @@
 {
   "name": "jogo-da-forca",
   "version": "1.0.0",
-  "description": "jogo da forca com opção mulitplayer",
-  "main": "jogo.js",
+  "description": "jogo da forca",
+  "main": "Wagner_Santos_Duarte_index.js",
   "scripts": {
     "start": "node Wagner_Santos_Duarte_index.js"
   },
